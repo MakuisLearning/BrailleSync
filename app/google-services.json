@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "300190166806",
+    "project_id": "braille-sync",
+    "storage_bucket": "braille-sync.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300190166806:android:d12f548caac7c3dc2c6a37",
+        "android_client_info": {
+          "package_name": "com.example.braille_sync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNnlsR-hXCtCWXzi58SqrKrE6pF_341o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

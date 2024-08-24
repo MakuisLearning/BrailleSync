@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Enter text here"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/formatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Format"
+        android:layout_below="@id/inputText"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/formatButton"
+        android:layout_marginTop="16dp"
+        android:background="#f0f0f0"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:scrollbars="vertical"
+        android:maxLines="27"
+        android:overScrollMode="always"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:scrollHorizontally="false"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
