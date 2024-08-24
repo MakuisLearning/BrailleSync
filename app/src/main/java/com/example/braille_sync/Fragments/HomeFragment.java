@@ -219,7 +219,7 @@ public class HomeFragment extends Fragment {
             ArrayList<String> result = wrapAscii(textToAscii(input),30,27);
             ArrayList<String> BrailleCode = brailleletter(result);
             //print the Braille somewhere
-
+            //Hello
             //pass value to firebase firestore
             textInput.getText().clear();
             uid = Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid();
